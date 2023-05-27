@@ -20,8 +20,12 @@ header{
 .logos {
     display: flex;
     justify-content: space-around;
-
 }
+
+.logos .card {
+    --bs-card-bg: rgba(0, 0, 0, 0.075)
+}
+
 .logos img{
     height: 250px;
     width: 250px;
@@ -33,6 +37,7 @@ header{
 .menu2{
     text-decoration: none;
     color:aquamarine;
+    text-align: center;
 }
 
 

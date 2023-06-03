@@ -1,70 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/bootstrap.min.js"></script>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css" />
     <title>Contacto</title>
-</head>
-<header> 
-    <div>
-        <div>
-    <h1>Grandes Vueltas del Ciclismo</h1>
-    <nav> 
-        <a class="menu2" href="../index.html">Página inicial</a>
+  </head>
+  <body>
+    <nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/lavuelta.html"
+                  >La Vuelta</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/ilgiro.html"
+                  >Giro de Italia</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/tourthefrance.html"
+                  >Tour the France</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </nav>
-</header>
-<body> 
+    <header>
+      <h1>Grandes Vueltas del Ciclismo</h1>
+    </header>
     <main>
-        <form class="formulario">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
-            <fieldset>
-                <div class="formulario">
-                    <h4> Inscribase llenando aquí</h4>
+      <form class="formulario">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-8">
+          <fieldset>
+            <div class="formulario">
+              <h4>Inscribase llenando aquí</h4>
 
-                    <div class="form-input">
-                        <label>Nombre:</label>
-                        <input type="text" placeholder="Tu nombre"/>
-                    </div>
-                    <div class="form-input">
-                        <label>Dni:</label>
-                        <input type="number" placeholder="Dni"/>
-                    </div>
-                    <div class="form-input">
-                        <label>Número de contacto:</label>
-                        <input type="number" placeholder="Número de contacto"/>
-                    </div>
-                    <div class="form-input">
-                        <label>Correo electrónico:</label>
-                        <input type="email" placeholder="Correo electrónico"/>
-                    </div>
-                    <div class="form-input">
-                        <label>Tu opinión nos ayuda:</label>
-                        <textarea cols="22" rows="5"></textarea>
-                    </div>
+              <div class="form-input">
+                <label>Nombre:</label>
+                <input type="text" placeholder="Tu nombre" />
+              </div>
+              <div class="form-input">
+                <label>Dni:</label>
+                <input type="number" placeholder="Dni" />
+              </div>
+              <div class="form-input">
+                <label>Número de contacto:</label>
+                <input type="number" placeholder="Número de contacto" />
+              </div>
+              <div class="form-input">
+                <label>Correo electrónico:</label>
+                <input type="email" placeholder="Correo electrónico" />
+              </div>
+              <div class="form-input">
+                <label>Tu opinión nos ayuda:</label>
+                <textarea cols="22" rows="5"></textarea>
+              </div>
 
-                    <div class="enviar">
-                        <input type="submit" value="Enviar" class="btn-submit"/>
-                    </div>
-                </div>
-            </fieldset>
+              <div class="enviar">
+                <input type="submit" value="Enviar" class="btn-submit" />
+              </div>
             </div>
-        </form>
+          </fieldset>
+        </div>
+      </form>
     </main>
 
     <footer class="contact">
-        <div class="redes">
-            <a href="">
-                <img src="../images/facebook.png">
-            </a>
-            <a href="">
-                <img src="../images/gorjeo.png">
-            </a>
-            <a href="">
-                <img src="../images/instagram.png">
-            </a>
-        </div>
+      <div class="redes">
+        <a href="">
+          <img src="../images/facebook.png" />
+        </a>
+        <a href="">
+          <img src="../images/gorjeo.png" />
+        </a>
+        <a href="">
+          <img src="../images/instagram.png" />
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

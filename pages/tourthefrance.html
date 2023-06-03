@@ -1,63 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/styles.css" rel="stylesheet" type="text/css">
-    
-    <title>Eltour</title>
-</head>
-<body>
-    <header>
-        <h1>Grandes Vueltas del Ciclismo</h1>
-    </header>
-    <nav> 
-        <ul>
-        <li>
-        <a class="menu2" href="../index.html">Pagina inicial</a>
-        </li>
-        <li>
-        <a  class="menu2" href="/pages/contacto.html">Contacto</a>
-        </li>
-    </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/bootstrap.min.js"></script>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+    <title>El Tour de France</title>
+  </head>
+  <body>
+    <nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/lavuelta.html">La Vuelta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/ilgiro.html"
+                  >Giro de Italia</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </nav>
     <main>
-        <h1>El Tour de Francia</h1>
-    <p>
-        El Tour de Francia, también conocido simplemente como el Tour, es una vuelta por etapas profesional de ciclismo en ruta disputada a lo largo de la geografía francesa —aunque suele transcurrir parcialmente por los países vecinos—. Tradicionalmente se celebra en julio1​ y pertenece al calendario UCI WorldTour, máxima categoría de las carreras profesionales.
-        Considerada la carrera ciclistica más importante del mundo,​ el Tour se disputó por primera vez en 1903. Desde su creación, la carrera se ha visto interrumpida en dos ocasiones debido a las dos guerras mundiales: desde 1915 hasta 1918 y desde 1940 hasta 1946.
-        Es la más antigua de las conocidas tres "Grandes Vueltas" del ciclismo, junto al Giro de Italia y la Vuelta a España.
-    </p>
-    <h2>La primera Edicion</h2>
-    <p>
-        Lefèvre propuso al director del periódico deportivo L'Auto, Henri Desgrange, crear una competición ciclista para promocionar el diario. Así, el 1 de julio de 1903 el primer Tour de Francia comenzó en Montgeron, cerca de París, donde tomaron la salida 60 ciclistas que cubrieron la etapa inaugural de 467 km hasta Lyon. El recorrido constaba de seis etapas con un total de 2428 km. El francés Maurice Garin fue el vencedor del primer Tour de la historia, completando la prueba a una velocidad de 25 km/h. Recibió un premio de 6075 francos. 
-    </p>
-    <h2> Camiseta de lideres</h2>
-    <p>
-        Durante cada etapa, los líderes de las clasificaciones deben portar una camiseta (maillot) que los distinga del resto de los corredores.
-        El maillot amarillo (maillot jaune en francés), fue instaurado en 1919 y es el más importante de todos ya que identifica al líder de la clasificación general individual. Ningún equipo participante del Tour puede tener un maillot similar, o donde predomine el color amarillo.
-        El maillot verde se utilizó por primera vez en 1953 y es el que identifica al líder de la clasificación por puntos.
-        Otorgado a partir de 1975, este maillot es el que distingue al líder de la clasificación de la montaña.
-        Creado en 1975, el maillot blanco identifica al ciclista menor de 26 años mejor ubicado en la clasificación general, en la denominada clasificación de los jóvenes.
-    </p>
+      <h1>El Tour de Francia</h1>
+      <p>
+        El Tour de Francia, también conocido simplemente como el Tour, es una
+        vuelta por etapas profesional de ciclismo en ruta disputada a lo largo
+        de la geografía francesa —aunque suele transcurrir parcialmente por los
+        países vecinos—. Tradicionalmente se celebra en julio1​ y pertenece al
+        calendario UCI WorldTour, máxima categoría de las carreras
+        profesionales. Considerada la carrera ciclistica más importante del
+        mundo,​ el Tour se disputó por primera vez en 1903. Desde su creación,
+        la carrera se ha visto interrumpida en dos ocasiones debido a las dos
+        guerras mundiales: desde 1915 hasta 1918 y desde 1940 hasta 1946. Es la
+        más antigua de las conocidas tres "Grandes Vueltas" del ciclismo, junto
+        al Giro de Italia y la Vuelta a España.
+      </p>
+      <h2>La primera Edicion</h2>
+      <p>
+        Lefèvre propuso al director del periódico deportivo L'Auto, Henri
+        Desgrange, crear una competición ciclista para promocionar el diario.
+        Así, el 1 de julio de 1903 el primer Tour de Francia comenzó en
+        Montgeron, cerca de París, donde tomaron la salida 60 ciclistas que
+        cubrieron la etapa inaugural de 467 km hasta Lyon. El recorrido constaba
+        de seis etapas con un total de 2428 km. El francés Maurice Garin fue el
+        vencedor del primer Tour de la historia, completando la prueba a una
+        velocidad de 25 km/h. Recibió un premio de 6075 francos.
+      </p>
+      <h2>Camiseta de lideres</h2>
+      <p>
+        Durante cada etapa, los líderes de las clasificaciones deben portar una
+        camiseta (maillot) que los distinga del resto de los corredores. El
+        maillot amarillo (maillot jaune en francés), fue instaurado en 1919 y es
+        el más importante de todos ya que identifica al líder de la
+        clasificación general individual. Ningún equipo participante del Tour
+        puede tener un maillot similar, o donde predomine el color amarillo. El
+        maillot verde se utilizó por primera vez en 1953 y es el que identifica
+        al líder de la clasificación por puntos. Otorgado a partir de 1975, este
+        maillot es el que distingue al líder de la clasificación de la montaña.
+        Creado en 1975, el maillot blanco identifica al ciclista menor de 26
+        años mejor ubicado en la clasificación general, en la denominada
+        clasificación de los jóvenes.
+      </p>
     </main>
     <section>
-        <div class="logos">
-        <img src="/images/lidertour.jpg">
-        <img src="/images/lidermontañatour.jpg">
-        <img src="/images/mejorjoven.jpg">
-        <img src="/images/lidersprint.jpg">
-        </div>
+      <div class="logos">
+        <img src="/images/lidertour.jpg" />
+        <img src="/images/lidermontañatour.jpg" />
+        <img src="/images/mejorjoven.jpg" />
+        <img src="/images/lidersprint.jpg" />
+      </div>
     </section>
 
-
     <footer>
-        <div class="redes">
-    <img src="/images/facebook.png">
-    <img src="/images/gorjeo.png">
-    <img src="/images/instagram.png">
-</div>
+      <div class="redes">
+        <img src="/images/facebook.png" />
+        <img src="/images/gorjeo.png" />
+        <img src="/images/instagram.png" />
+      </div>
     </footer>
-</body>
+  </body>
 </html>

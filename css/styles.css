@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2? family= Krub:ital,wght@0,700;1,300 & display=swap');
 /*index*/
 body {
-background-color: black;}
+background-color: rgb(22, 21, 21);}
 header{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 .boton{
     background-color: #259917;
@@ -28,6 +28,8 @@ header{
 .logos img{
     height: 250px;
     width: 250px;
+    margin: 15px;
+
     
 }
 
@@ -70,15 +72,12 @@ footer{
     background-color: black;
     border: none;
     bottom: 0px;
-    position: fixed;
+    position:fixed;
     width: 100%;
     text-align: center;
 }   
-.redes img{
-    width: 50px;
-    height: 50px;
 
-}
+
 
 /*formulario*/
 
@@ -132,10 +131,14 @@ fieldset {
 footer {
     background-color: rgba(0,0,0,.5);
     bottom: 0px;
-    position: fixed;
+    position:relative;
     width: 100%;
     text-align: center;
     padding: 15px;
+}
+.redes img{
+    width: 40px;
+    height: 40px;
 }
 
 main {

@@ -10,9 +10,9 @@
     <title>Contacto</title>
   </head>
   <body>
-    <nav>
+    <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+        <div class="container container-fluid">
           <a class="navbar-brand" href="../index.html">Inicio</a>
           <button
             class="navbar-toggler"
@@ -31,76 +31,76 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="../pages/lavuelta.html"
-                  >La Vuelta</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/ilgiro.html"
+                  href="./ilgiro.html"
                   >Giro de Italia</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/tourthefrance.html"
-                  >Tour the France</a
+                <a class="nav-link" href="./lavuelta.html">La Vuelta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tourthefrance.html"
+                  >Tour de France</a
                 >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    </nav>
-    <header>
-      <h1>Grandes Vueltas del Ciclismo</h1>
     </header>
+
     <main>
-      <form class="formulario">
-        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-8">
-          <fieldset>
-            <div class="formulario">
-              <h4>Inscribase llenando aquí</h4>
+      <div class="container">
+        <h1>Grandes Vueltas del Ciclismo</h1>
+        <form>
+          <div class="row">
+            <div class="col-xs-12 col-sm-8 offset-sm-2">
+              <fieldset>
+                <div class="formulario">
+                  <h4>Inscribase llenando aquí</h4>
 
-              <div class="form-input">
-                <label>Nombre:</label>
-                <input type="text" placeholder="Tu nombre" />
-              </div>
-              <div class="form-input">
-                <label>Dni:</label>
-                <input type="number" placeholder="Dni" />
-              </div>
-              <div class="form-input">
-                <label>Número de contacto:</label>
-                <input type="number" placeholder="Número de contacto" />
-              </div>
-              <div class="form-input">
-                <label>Correo electrónico:</label>
-                <input type="email" placeholder="Correo electrónico" />
-              </div>
-              <div class="form-input">
-                <label>Tu opinión nos ayuda:</label>
-                <textarea cols="22" rows="5"></textarea>
-              </div>
+                  <div class="form-input">
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Tu nombre" />
+                  </div>
+                  <div class="form-input">
+                    <label>Dni:</label>
+                    <input type="number" placeholder="Dni" />
+                  </div>
+                  <div class="form-input">
+                    <label>Número de contacto:</label>
+                    <input type="number" placeholder="Número de contacto" />
+                  </div>
+                  <div class="form-input">
+                    <label>Correo electrónico:</label>
+                    <input type="email" placeholder="Correo electrónico" />
+                  </div>
+                  <div class="form-input">
+                    <label>Tu opinión nos ayuda:</label>
+                    <textarea cols="22" rows="5"></textarea>
+                  </div>
 
-              <div class="enviar">
-                <input type="submit" value="Enviar" class="btn-submit" />
-              </div>
+                  <div class="enviar">
+                    <input type="submit" value="Enviar" class="btn-submit" />
+                  </div>
+                </div>
+              </fieldset>
             </div>
-          </fieldset>
-        </div>
-      </form>
+          </div>
+        </form>
+      </div>
     </main>
 
-    <footer class="contact">
-      <div class="redes">
-        <a href="">
+    <footer>
+      <div class="container">
+        <div class="redes">
           <img src="../images/facebook.png" />
-        </a>
-        <a href="">
           <img src="../images/gorjeo.png" />
-        </a>
-        <a href="">
           <img src="../images/instagram.png" />
-        </a>
+        </div>
       </div>
     </footer>
   </body>

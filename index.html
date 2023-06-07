@@ -10,84 +10,89 @@
     <title>Ciclismo</title>
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand">Inicio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="./pages/ilgiro.html"
-                >Giro de Italia</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/lavuelta.html">La Vuelta</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/tourthefrance.html"
-                >Tour de France</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/contacto.html"
-                >Contacto</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <header>
-      <h1>LAS GRANDES VUELTAS</h1>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container container-fluid">
+          <a class="navbar-brand" href="./index.html">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/ilgiro.html"
+                  >Giro de Italia</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/lavuelta.html">La Vuelta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/tourthefrance.html"
+                  >Tour de France</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-      <section class="carrera">
-        <div class="nav-bg">
-          <nav class="contenedor">
+      <div class="container">
+        <h1>LAS GRANDES VUELTAS</h1>
+        <section class="carrera">
+          <div class="contenedor">
+            <div></div>
             <div class="row">
               <div class="col-xs-12 col-lg-4 logos">
                 <div class="card">
-                  <a class="menu2 card-title"></a>
-                  <img src="./images/giro de italia.jpg" alt="Giro de Italia" />
+                  <a class="menu2 card-title" href="./pages/ilgiro.html">
+                    <img
+                      class="imagen-index"
+                      src="./images/giro de italia.jpg"
+                      alt="Giro de Italia"
+                    />
+                  </a>
                 </div>
-                <div class="row"></div>
               </div>
               <div class="col-xs-12 col-lg-4 logos">
                 <div class="card">
-                  <a class="menu2 card-title"></a>
-                  <img src="./images/lavuelta.jpg" />
+                  <a class="menu2 card-title" href="./pages/lavuelta.html">
+                    <img class="imagen-index" src="./images/lavuelta.jpg" />
+                  </a>
                 </div>
-                <div class="row"></div>
               </div>
               <div class="col-xs-12 col-lg-4 logos">
                 <div class="card">
-                  <a class="menu2 card-title"></a>
-                  <img src="./images/tourthefrance.jpg" />
+                  <a class="menu2 card-title" href="./pages/tourthefrance.html">
+                    <img
+                      class="imagen-index"
+                      src="./images/tourthefrance.jpg"
+                    />
+                  </a>
                 </div>
-                <div class="row"></div>
               </div>
             </div>
-          </nav>
-        </div>
-      </section>
+          </div>
+        </section>
+      </div>
     </main>
-    <articl>
-      <div>
+    <article>
+      <div class="container">
         <h3>Ciclismo</h3>
         <p>
           El ciclismo es un deporte muy común en el que se desarrolla en una
@@ -133,13 +138,14 @@
           </li>
         </ul>
       </div>
-    </articl>
-<div>
+    </article>
     <footer>
-      <div class="redes">
-        <img src="./images/facebook.png" />
-        <img src="./images/gorjeo.png" />
-        <img src="./images/instagram.png" />
+      <div class="container">
+        <div class="redes">
+          <img src="./images/facebook.png" />
+          <img src="./images/gorjeo.png" />
+          <img src="./images/instagram.png" />
+        </div>
       </div>
     </footer>
   </body>

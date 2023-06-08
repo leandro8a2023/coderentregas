@@ -98,6 +98,29 @@ footer {
   text-decoration: none;
 }
 
+.form-input label {
+  display: block;
+  line-height: 1.5;
+}
+
+.form-input input, .form-input textarea {
+  height: 1.8em;
+  margin-bottom: 15px;
+}
+
+.form-input textarea {
+  resize: none;
+  height: inherit;
+}
+
+.btn-submit {
+  background-color: #259917;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
 .imagen-index {
   filter: grayscale(0.8);
   transition: all 0.3s ease;
@@ -123,40 +146,17 @@ footer {
   margin: 15px;
 }
 
+.carrera {
+  flex: center;
+  justify-content: start;
+}
+
 .contenedor {
   width: center;
   margin: 0 auto;
   padding: 1rem;
   display: flex;
   justify-content: space-around;
-}
-
-.carrera {
-  flex: center;
-  justify-content: start;
-}
-
-.form-input label {
-  display: block;
-  line-height: 1.5;
-}
-
-.form-input input, .form-input textarea {
-  height: 1.8em;
-  margin-bottom: 15px;
-}
-
-.form-input textarea {
-  resize: none;
-  height: inherit;
-}
-
-.btn-submit {
-  background-color: #259917;
-  border: none;
-  color: white;
-  padding: 8px 12px;
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=estiloss.css.map */

@@ -2,40 +2,13 @@
 @use "variables.scss";
 @use "footer.scss";
 @use "contacto.scss";
+@use "index.scss";
 
 
 
-.boton{
-    background-color: #259917;
-    border: none;
-    color: white;
-    padding: 8px 12px;
-    cursor: pointer;
-    text-decoration: none;
-}
-.imagen-index{
-    filter:grayscale(0.8);
-    transition: all 0.3s ease;
-}
-.imagen-index:hover{
- filter:grayscale(0);
 
-}
-.logos {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
 
-.logos .card {
-    --bs-card-bg: rgba(0, 0, 0, 0.075)
-}
 
-.logos img{
-    height: 250px;
-    width: 250px;
-    margin: 15px;
-}
 
 .contenedor{
     width: center;
@@ -47,33 +20,5 @@
 
     
 
-.carrera{
-    flex: center;
-    justify-content: start;
-}
 
 
-
-.form-input label {
-    display: block;
-    line-height: 1.5;
-}
-
-.form-input input, .form-input textarea {
-    height: 1.8em;
-    margin-bottom: 15px;
-}
-
-.form-input textarea {
-    resize: none;
-    height: inherit;
-}
-
-
-.btn-submit {
-    background-color: #259917;
-    border: none;
-    color: white;
-    padding: 8px 12px;
-    cursor: pointer;
-}

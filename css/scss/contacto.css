@@ -29,4 +29,36 @@
   margin: 0.5rem;
 }
 
+.boton {
+  background-color: #259917;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form-input label {
+  display: block;
+  line-height: 1.5;
+}
+
+.form-input input, .form-input textarea {
+  height: 1.8em;
+  margin-bottom: 15px;
+}
+
+.form-input textarea {
+  resize: none;
+  height: inherit;
+}
+
+.btn-submit {
+  background-color: #259917;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=contacto.css.map */

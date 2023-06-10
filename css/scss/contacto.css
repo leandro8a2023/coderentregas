@@ -1,0 +1,64 @@
+.formulario {
+  padding: 15px;
+  margin-top: 15px;
+  max-width: 290px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.formulario h4 {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.form input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.envair {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.boton {
+  background-color: #259917;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form-input label {
+  display: block;
+  line-height: 1.5;
+}
+
+.form-input input, .form-input textarea {
+  height: 1.8em;
+  margin-bottom: 15px;
+}
+
+.form-input textarea {
+  resize: none;
+  height: inherit;
+}
+
+.btn-submit {
+  background-color: #259917;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=contacto.css.map */

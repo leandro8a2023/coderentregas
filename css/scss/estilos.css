@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,300&family=Roboto:wght@100;300;500&display=swap");
 body {
-  background-color: rgb(22, 21, 21);
+  background: linear-gradient(black, rgb(4, 28, 27), black);
 }
 
 header {
@@ -18,21 +18,29 @@ ul {
 }
 
 h1 {
-  color: whitesmoke;
+  color: rgb(116, 73, 209);
   text-align: center;
   font-family: "Krub", sans-serif;
 }
 
-section h2 {
-  color: whitesmoke;
+h2 {
+  color: rgb(163, 144, 205);
   text-align: center;
   font-family: "Krub", sans-serif;
 }
 
 h3 {
-  color: whitesmoke;
   text-align: center;
   font-family: "Krub", sans-serif;
+  color: rgb(163, 144, 205);
+}
+
+h4 {
+  color: rgb(163, 144, 205);
+}
+
+h5 {
+  color: rgb(163, 144, 205);
 }
 
 p {
@@ -83,7 +91,8 @@ footer {
   margin: 0.5rem;
 }
 
-.envair {
+.enviar {
+  text-align: center;
   width: 90%;
   height: 30px;
   margin: 0.5rem;
@@ -103,7 +112,8 @@ footer {
   line-height: 1.5;
 }
 
-.form-input input, .form-input textarea {
+.form-input input,
+.form-input textarea {
   height: 1.8em;
   margin-bottom: 15px;
 }
@@ -137,7 +147,7 @@ footer {
 }
 
 .logos .card {
-  --bs-card-bg: rgba(0, 0, 0, 0.075) ;
+  --bs-card-bg: rgba(0, 0, 0, 0.075);
 }
 
 .logos img {
@@ -159,4 +169,4 @@ footer {
   justify-content: space-around;
 }
 
-/*# sourceMappingURL=estiloss.css.map */
+/*# sourceMappingURL=estilos.css.map */

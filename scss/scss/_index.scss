@@ -1,12 +1,11 @@
+
 .imagen-index {
   filter: grayscale(0.8);
   transition: all 0.3s ease;
 }
-
 .imagen-index:hover {
   filter: grayscale(0);
 }
-
 .logos {
   display: flex;
   justify-content: space-around;
@@ -14,7 +13,7 @@
 }
 
 .logos .card {
-  --bs-card-bg: rgba(0, 0, 0, 0.075) ;
+  --bs-card-bg: rgba(0, 0, 0, 0.075);
 }
 
 .logos img {
@@ -27,5 +26,10 @@
   flex: center;
   justify-content: start;
 }
-
-/*# sourceMappingURL=index.css.map */
+.contenedor {
+  width: center;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}

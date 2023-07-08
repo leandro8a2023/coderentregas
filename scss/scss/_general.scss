@@ -1,40 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,300&family=Roboto:wght@100;300;500&display=swap");
+
 body {
-  background-color: rgb(22, 21, 21);
+  background: linear-gradient(black, rgb(4, 28, 27), black);
 }
 
 header {
   background-color: rgb(0, 0, 0);
 }
-
 main {
   padding-top: 15px;
   padding-bottom: 84px;
 }
-
 ul {
   padding-left: 0px;
   list-style: none;
 }
-
 h1 {
-  color: whitesmoke;
+  color: rgb(116, 73, 209);
   text-align: center;
   font-family: "Krub", sans-serif;
 }
-
-section h2 {
-  color: whitesmoke;
+h2 {
+  color: rgb(163, 144, 205);
   text-align: center;
   font-family: "Krub", sans-serif;
 }
-
 h3 {
-  color: whitesmoke;
   text-align: center;
   font-family: "Krub", sans-serif;
+  color: rgb(163, 144, 205);
 }
-
+h4 {
+  color: rgb(163, 144, 205);
+}
+h5 {
+  color: rgb(163, 144, 205);
+}
 p {
   color: white;
 }
@@ -42,5 +43,3 @@ p {
 * {
   font-family: "Krub", sans-serif;
 }
-
-/*# sourceMappingURL=general.css.map */

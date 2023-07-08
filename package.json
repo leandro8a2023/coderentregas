@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/leandro8a2023/coderentregas/issues"
   },
-  "homepage": "https://github.com/leandro8a2023/coderentregas#readme"
+  "homepage": "https://github.com/leandro8a2023/coderentregas#readme",
+  "dependencies": {}
 }

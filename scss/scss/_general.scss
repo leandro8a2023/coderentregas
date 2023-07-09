@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,300&family=Roboto:wght@100;300;500&display=swap");
 
+//color de fondo de paginas
 body {
   background: linear-gradient(black, rgb(4, 28, 27), black);
 }
@@ -9,12 +10,19 @@ header {
 }
 main {
   padding-top: 15px;
-  padding-bottom: 84px;
+  padding-bottom: 50px;
 }
 ul {
   padding-left: 0px;
   list-style: none;
 }
+//navegador
+
+.active {
+  text-transform: uppercase;
+}
+
+//Titulos y textos generales
 h1 {
   color: rgb(116, 73, 209);
   text-align: center;
@@ -31,15 +39,19 @@ h3 {
   color: rgb(163, 144, 205);
 }
 h4 {
+  text-align: center;
+  font-family: "Krub", sans-serif;
   color: rgb(163, 144, 205);
 }
 h5 {
+  text-align: center;
+  font-family: "Krub", sans-serif;
   color: rgb(163, 144, 205);
 }
 p {
   color: white;
 }
-
+//Tipologia
 * {
   font-family: "Krub", sans-serif;
 }

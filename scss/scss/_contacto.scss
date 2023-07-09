@@ -1,3 +1,4 @@
+//formulario 
 .formulario {
   padding: 15px;
   margin-top: 15px;
@@ -16,47 +17,47 @@
     font-size: 1.3rem;
     margin-bottom: 30px;
   }
-}
-.form input {
-  width: 90%;
-  height: 30px;
-  margin: 0.5rem;
-}
-.enviar {
-  text-align: center;
-  width: 90%;
-  height: 30px;
-  margin: 0.5rem;
-}
-.boton {
-  background-color: #259917;
-  border: none;
-  color: white;
-  padding: 8px 12px;
-  cursor: pointer;
-  text-decoration: none;
-}
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  .enviar {
+    text-align: center;
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  .boton {
+    background-color: #259917;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-decoration: none;
+  }
 
-.form-input label {
-  display: block;
-  line-height: 1.5;
-}
+  .form-input label {
+    display: block;
+    line-height: 1.5;
+  }
 
-.form-input input,
-.form-input textarea {
-  height: 1.8em;
-  margin-bottom: 15px;
-}
+  .form-input input,
+  .form-input textarea {
+    height: 1.8em;
+    margin-bottom: 15px;
+  }
 
-.form-input textarea {
-  resize: none;
-  height: inherit;
-}
+  .form-input textarea {
+    resize: none;
+    height: inherit;
+  }
 
-.btn-submit {
-  background-color: #259917;
-  border: none;
-  color: white;
-  padding: 8px 12px;
-  cursor: pointer;
+  .btn-submit {
+    background-color: #259917;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
 }

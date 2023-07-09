@@ -9,12 +9,16 @@ header {
 
 main {
   padding-top: 15px;
-  padding-bottom: 84px;
+  padding-bottom: 50px;
 }
 
 ul {
   padding-left: 0px;
   list-style: none;
+}
+
+.active {
+  text-transform: uppercase;
 }
 
 h1 {
@@ -36,10 +40,14 @@ h3 {
 }
 
 h4 {
+  text-align: center;
+  font-family: "Krub", sans-serif;
   color: rgb(163, 144, 205);
 }
 
 h5 {
+  text-align: center;
+  font-family: "Krub", sans-serif;
   color: rgb(163, 144, 205);
 }
 
@@ -84,21 +92,18 @@ footer {
   font-size: 1.3rem;
   margin-bottom: 30px;
 }
-
-.form input {
+.formulario .form input {
   width: 90%;
   height: 30px;
   margin: 0.5rem;
 }
-
-.enviar {
+.formulario .enviar {
   text-align: center;
   width: 90%;
   height: 30px;
   margin: 0.5rem;
 }
-
-.boton {
+.formulario .boton {
   background-color: #259917;
   border: none;
   color: white;
@@ -106,24 +111,20 @@ footer {
   cursor: pointer;
   text-decoration: none;
 }
-
-.form-input label {
+.formulario .form-input label {
   display: block;
   line-height: 1.5;
 }
-
-.form-input input,
-.form-input textarea {
+.formulario .form-input input,
+.formulario .form-input textarea {
   height: 1.8em;
   margin-bottom: 15px;
 }
-
-.form-input textarea {
+.formulario .form-input textarea {
   resize: none;
   height: inherit;
 }
-
-.btn-submit {
+.formulario .btn-submit {
   background-color: #259917;
   border: none;
   color: white;
@@ -140,20 +141,14 @@ footer {
   filter: grayscale(0);
 }
 
-.logos {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
 .logos .card {
-  --bs-card-bg: rgba(0, 0, 0, 0.075);
+  --bs-card-bg: rgba(59, 26, 130, 0.086);
 }
 
 .logos img {
   height: 250px;
   width: 250px;
-  margin: 15px;
+  margin: 50px;
 }
 
 .carrera {
@@ -161,11 +156,16 @@ footer {
   justify-content: start;
 }
 
+.logos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .contenedor {
   width: center;
   margin: 0 auto;
   padding: 1rem;
-  display: flex;
   justify-content: space-around;
 }
 

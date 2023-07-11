@@ -28,26 +28,12 @@ h1 {
   text-align: center;
   font-family: "Krub", sans-serif;
 }
-h2 {
-  color: rgb(163, 144, 205);
-  text-align: center;
-  font-family: "Krub", sans-serif;
-}
-h3 {
+& h2 h3 h4 h5 {
   text-align: center;
   font-family: "Krub", sans-serif;
   color: rgb(163, 144, 205);
 }
-h4 {
-  text-align: center;
-  font-family: "Krub", sans-serif;
-  color: rgb(163, 144, 205);
-}
-h5 {
-  text-align: center;
-  font-family: "Krub", sans-serif;
-  color: rgb(163, 144, 205);
-}
+
 p {
   color: white;
 }

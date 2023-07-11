@@ -2,22 +2,12 @@
 .imagen-index {
   filter: grayscale(0.8);
   transition: all 0.3s ease;
-}
-//animacion y card
-.imagen-index:hover {
-  filter: grayscale(0);
-}
 
-.logos .card {
-  --bs-card-bg: rgba(59, 26, 130, 0.086);
+  //animacion y card
+  &:hover {
+    filter: grayscale(0);
+  }
 }
-
-.logos img {
-  height: 250px;
-  width: 250px;
-  margin: 50px;
-}
-
 
 .carrera {
   flex: center;
@@ -29,6 +19,16 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+
+  .card {
+    --bs-card-bg: rgba(59, 26, 130, 0.086);
+  }
+
+  img {
+    height: 250px;
+    width: 250px;
+    margin: 50px auto;
+  }
 }
 
 .contenedor {
